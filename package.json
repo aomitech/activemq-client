@@ -10,6 +10,9 @@
   "bin": {
     "sendMessage": "./lib/bin/sendMessage.js"
   },
+  "repository": {
+    "url": "https://github.com/aomitech/activemq-client.git"
+  },
   "keywords": [],
   "author": "Sean",
   "license": "ISC",

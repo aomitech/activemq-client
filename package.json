@@ -1,0 +1,24 @@
+{
+  "name": "activemq-client",
+  "version": "1.0.0",
+  "description": "activemq client",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib/index.js"
+  },
+  "bin": {
+    "sendMessage": "./lib/bin/sendMessage.js"
+  },
+  "keywords": [],
+  "author": "Sean",
+  "license": "ISC",
+  "dependencies": {
+    "stompjs": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.4",
+    "@types/stompjs": "^2.3.4",
+    "typescript": "^3.1.1"
+  }
+}
